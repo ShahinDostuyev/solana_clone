@@ -1,0 +1,41 @@
+@import "../sass/base/reset";
+@import "../sass/abstracts/mixins";
+@import "../sass/components/buttons";
+@import "../sass/layout/build";
+@import "../sass/layout/community";
+@import "../sass/layout/get-access";
+@import "../sass/layout/header";
+@import "../sass/layout/hero";
+@import "../sass/layout/partners";
+
+body {
+  background-color: #000000;
+}
+
+.text-align-center {
+  text-align: center;
+}
+.display-flex {
+  display: flex;
+}
+.container {
+  width: 65%;
+  margin: auto;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+

@@ -1,0 +1,32 @@
+.hero {
+    color: white;
+    overflow: hidden;
+    &-content {
+      padding-top: 160px;
+      padding-bottom: 120px;
+      h1 {
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 76px;
+      }
+      p {
+        width: 75%;
+        margin: 55px auto 48px;
+        @include main-paragraph();
+      }
+    }
+  }
+  .ring {
+    width: 50%;
+    z-index: -1;
+    top: 0;
+    &-left {
+      left: 0;
+      height: 600px;
+    }
+    &-right {
+      right: 0;
+      height: 800px;
+    }
+  }

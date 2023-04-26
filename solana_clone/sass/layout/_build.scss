@@ -1,0 +1,66 @@
+.build {
+  .adv {
+    width: 100%;
+    &-image {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    &-info {
+      width: 50%;
+      background-color: rgb(30, 30, 30);
+      padding-left: 45px;
+      padding-top: 50px;
+      img {
+        padding-bottom: 14px;
+        width: 80%;
+      }
+      p {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 27px;
+        color: white;
+        margin-bottom: 14px;
+        width: 80%;
+      }
+      a {
+        text-decoration: none;
+        width: 80%;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+  .join-community {
+    background: url("images/join-community-background.svg");
+    background-size: cover;
+    h2 {
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 46px;
+      color: white;
+    }
+    img {
+      position: absolute;
+      width: 100vw;
+      left: -27%;
+      overflow: auto;
+      margin-bottom: 128px;
+    }
+    &-encouragement {
+      width: 90%;
+      position: absolute;
+      margin: auto;
+      top: 45rem;
+      left: 5rem;
+      h2 {
+        margin-bottom: 18px;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 46px;
+      }
+    }
+  }
+}
